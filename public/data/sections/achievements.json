@@ -49,7 +49,7 @@
         "awards": [
             {
                 "id": "graduation_project",
-                "place": "@link{places.harvard}",
+                "place": "@link{places.bsu}",
                 "date": "2018/08",
                 "href": null,
                 "locales": {
@@ -77,7 +77,7 @@
 
             {
                 "id": "alumni_hackaton",
-                "place": "@link{places.harvard}",
+                "place": "@link{places.bsu}",
                 "date": "2019/09",
                 "href": "https://harvard.com",
                 "locales": {
@@ -191,7 +191,7 @@
 
             {
                 "id": "ui_nanodegree",
-                "place": "@link{places.udacity}",
+                "place": "@link{places.a1qa}",
                 "date": "2019/04",
                 "href": "https://udemy.com",
                 "locales": {

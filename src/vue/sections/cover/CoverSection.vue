@@ -15,7 +15,26 @@
 
         <!-- Social Links -->
         <SocialLinks :items="props.sectionData.content['items']['socialCircles']"/>
-    </SectionTemplate>
+
+        <div class="recommendation-letter mt-5 pt-2">
+          <br>
+          <blockquote class="blockquote pb-2">
+            <p>
+              To Whom It May Concern,
+            </p>
+            <p>
+              Yahor is one of the best developers I’ve ever worked with. He is unafraid of complex features and is incredibly efficient with his time. He always completed the most story points per sprint of our engineering team. Yahor is an efficient communicator and handles the time differences ans async work style excellently. Ultimately, Yahor’s abilities raised the bar for the team. Other engineers saw what he was able to do and quickly wanted to achieve that level of performance, raising the average performance of the entire team. I can’t recommend Yahor enough.
+            </p>
+            <p>
+              Please feel free to reach out with any questions.
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 font-italic">
+            Joe Burgess,&nbsp;&nbsp;&nbsp;CTO Ribbon Education,&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/jmburges/" target="_blank">Linkedin</a>,&nbsp;&nbsp;&nbsp;<a href="mailto:joemburgess@gmail.com">joemburgess@gmail.com</a>
+          </figcaption>
+        </div>
+
+  </SectionTemplate>
 </template>
 
 <script setup>
@@ -70,5 +89,16 @@ const coverTitle = computed(() => {
         lg: (margin-bottom: 2rem),
         md: (margin-bottom: 1.2rem)
     ))
+}
+
+.recommendation-letter blockquote {
+  font-size: 15px !important;
+}
+
+.recommendation-letter {
+  border-left: 4px solid rgb(151, 22, 241);
+  border-radius: 4px;
+  padding: 16px;
+  background-color: white;
 }
 </style>

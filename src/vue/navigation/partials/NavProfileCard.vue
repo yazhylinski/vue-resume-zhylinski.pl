@@ -48,7 +48,7 @@ const props = defineProps({
 }
 
 .img-pfp {
-    --max-height:clamp(130px, 19vh, 170px);
+    --max-height:clamp(130px, 220px, 250px);
     --border-width:6px;
 
     @include media-breakpoint-down(lg) {
@@ -67,6 +67,15 @@ const props = defineProps({
 
     border: var(--border-width) solid adjust-color(lighten($nav-background-color, 32%), $alpha:-0.85);
     border-radius: 50%;
+}
+
+.img-pfp :deep(img) {
+  width: 106%;
+  height: auto;
+  vertical-align: top;
+  position: relative;
+  top: -35px;
+  // right: 10px;
 }
 
 .nav-profile-card-title {

@@ -200,4 +200,14 @@ ul.timeline {
         }
     }
 }
+
+:deep(.skill-tag) {
+  color: white;
+  background-color: rgb(151, 22, 241);
+  padding: 6px;
+  border-radius: 4px;
+  margin-right: 6px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
 </style>
