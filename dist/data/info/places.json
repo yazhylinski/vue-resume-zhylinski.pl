@@ -7,19 +7,19 @@
         }
     },
 
-    "apple": {
-        "logoUrl": "images/places/logo-apple.png",
+    "monterosa": {
+        "logoUrl": "images/pictures/monterosa_logo.jpeg",
         "faIcon": "fab fa-apple",
         "locales": {
-            "en": {"name": "Apple Inc."}
+            "en": {"name": "Monterosa"}
         }
     },
 
-    "coursera": {
-        "logoUrl": "images/places/logo-coursera.png",
+    "ribbon": {
+        "logoUrl": "images/pictures/ribbon.jpeg",
         "faIcon": "fa fa-house-laptop",
         "locales": {
-            "en": {"name": "Coursera"}
+            "en": {"name": "Ribbon Education"}
         }
     },
 
@@ -39,14 +39,11 @@
         }
     },
 
-    "harvard": {
-        "logoUrl": "images/places/logo-harvard.png",
+    "bsu": {
+        "logoUrl": "images/places/logo-bsu.jpeg",
         "faIcon": "fas fa-university",
         "locales": {
-            "en": {"name": "Harvard University"},
-            "es": {"name": "Universidad de Harvard"},
-            "fr": {"name": "Université Harvard"},
-            "zh": {"name": "哈佛大学"}
+            "en": {"name": "Belarusian State University"}
         }
     },
 
@@ -61,11 +58,11 @@
         }
     },
 
-    "udacity": {
-        "logoUrl": "images/places/logo-udacity.png",
+    "a1qa": {
+        "logoUrl": "images/places/logo-a1qa.jpeg",
         "faIcon": "fa fa-house-laptop",
         "locales": {
-            "en": {"name": "Udacity"}
+            "en": {"name": "A1QA"}
         }
     },
 
